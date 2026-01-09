@@ -211,7 +211,8 @@ GameObject:
   - component: {fileID: 71992431}
   - component: {fileID: 71992433}
   m_Layer: 5
-  m_Name: Blind Memories - Cheel
+  m_Name: "\uB124\uAC00 \uC544\uB2C8\uBA74 \uC548\uB420\uAC70 \uAC19\uC544 -\uC6D4\uAC04\uC21C\uC815
+    \uB178\uC790\uD0A4\uAD70 OP"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +235,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -187}
-  m_SizeDelta: {x: 500, y: 150}
+  m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &71992431
 MonoBehaviour:
@@ -269,7 +270,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Blind Memories - Cheel
+  m_Text: "\uB124\uAC00 \uC544\uB2C8\uBA74 \uC548\uB420\uAC70 \uAC19\uC544 -\uC6D4\uAC04\uC21C\uC815
+    \uB178\uC790\uD0A4\uAD70 OP"
 --- !u!222 &71992432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1329,8 +1331,8 @@ MonoBehaviour:
   selectAudioClips:
   - {fileID: 8300000, guid: c8aaceec74dc7e843a636735770378d2, type: 3}
   - {fileID: 8300000, guid: 8a6f52fc5773cc64eb7915ad6b19d8e3, type: 3}
-  - {fileID: 8300000, guid: b0ce3145240dafa4f88ce6062396e1a9, type: 3}
-  - {fileID: 8300000, guid: 3408f87fb9cc0e34eb9ebbb7c01a89ac, type: 3}
+  - {fileID: 8300000, guid: 4692f13163e39d5468a36f63cf2155e3, type: 3}
+  - {fileID: 8300000, guid: dce63eaf60b7a29498e04ebe4fcaf123, type: 3}
   - {fileID: 8300000, guid: 43f4b9707404c474d8703fa45789b16b, type: 3}
   - {fileID: 8300000, guid: abf0f11f5c6643c4bb74a7a00482b690, type: 3}
   - {fileID: 8300000, guid: ba0f57fe356689642a45aa680f4e256b, type: 3}
@@ -3096,7 +3098,7 @@ GameObject:
   - component: {fileID: 1930976130}
   - component: {fileID: 1930976129}
   m_Layer: 5
-  m_Name: DaDaDum - The Soundlings
+  m_Name: SPY  FAMILY Opening theme song
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3154,7 +3156,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DaDaDum - The Soundlings
+  m_Text: SPY  FAMILY Opening theme song
 --- !u!222 &1930976130
 CanvasRenderer:
   m_ObjectHideFlags: 0

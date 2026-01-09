@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c032ccb90cfc7e4f9e9002c4833ecad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyManager
-  keyAudioClip: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+  keyAudioClip: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
   keyColors:
   - {r: 1, g: 0, b: 0, a: 0.49803922}
   - {r: 1, g: 0.524459, b: 0, a: 0.49803922}
@@ -623,7 +623,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Perfect
+  m_Text: 
 --- !u!222 &125023420
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -825,6 +825,7 @@ GameObject:
   - component: {fileID: 263176965}
   - component: {fileID: 263176964}
   - component: {fileID: 263176966}
+  - component: {fileID: 263176967}
   m_Layer: 5
   m_Name: Key_4
   m_TagString: Untagged
@@ -936,6 +937,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 150, y: 150}
   m_EdgeRadius: 0
+--- !u!114 &263176967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263176962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c4fb50c5a9fd44292dfbdaba6632ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NotePoint
+  keyName: Key_4
+  m_keyManager: {fileID: 6234251}
+  infoText: {fileID: 125023419}
+  mainManager: {fileID: 506190857}
 --- !u!1 &370994977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,8 +1125,8 @@ MonoBehaviour:
   backMusicClips:
   - {fileID: 8300000, guid: c8aaceec74dc7e843a636735770378d2, type: 3}
   - {fileID: 8300000, guid: 8a6f52fc5773cc64eb7915ad6b19d8e3, type: 3}
-  - {fileID: 8300000, guid: adffec83b0b51074586f97de7ceff34d, type: 3}
-  - {fileID: 8300000, guid: 3408f87fb9cc0e34eb9ebbb7c01a89ac, type: 3}
+  - {fileID: 8300000, guid: 4692f13163e39d5468a36f63cf2155e3, type: 3}
+  - {fileID: 8300000, guid: dce63eaf60b7a29498e04ebe4fcaf123, type: 3}
   - {fileID: 8300000, guid: 43f4b9707404c474d8703fa45789b16b, type: 3}
   - {fileID: 8300000, guid: abf0f11f5c6643c4bb74a7a00482b690, type: 3}
   - {fileID: 8300000, guid: ba0f57fe356689642a45aa680f4e256b, type: 3}
@@ -1146,7 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373e9bbddedaf5c4fa2bba4b727365b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
-  noteSpawnPoint:
+  noteSpawnPoints:
   - {fileID: 5422356863817891553}
   - {fileID: 2304483695858564342}
   - {fileID: 366071142449719259}
@@ -1159,6 +1176,13 @@ MonoBehaviour:
   - {fileID: 2806365297451683776, guid: f5a57477cc239764baba4ee0d6ee272f, type: 3}
   - {fileID: 5807881066010495650, guid: 051eae38927c89849ad4b9996ad6b90a, type: 3}
   gameUi: {fileID: 370994977}
+  mainManager: {fileID: 506190857}
+  bpm: 93
+  noteSpeed: 400
+  noteFallDistance: 1779
+  sheetMusic:
+  - beat: 0
+    line: 0
 --- !u!1 &523390158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,6 +1270,7 @@ GameObject:
   - component: {fileID: 527406600}
   - component: {fileID: 527406599}
   - component: {fileID: 527406601}
+  - component: {fileID: 527406602}
   m_Layer: 5
   m_Name: Key_5
   m_TagString: Untagged
@@ -1357,6 +1382,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 150, y: 150}
   m_EdgeRadius: 0
+--- !u!114 &527406602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527406597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c4fb50c5a9fd44292dfbdaba6632ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NotePoint
+  keyName: Key_5
+  m_keyManager: {fileID: 6234251}
+  infoText: {fileID: 125023419}
+  mainManager: {fileID: 506190857}
 --- !u!1 &603097385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,6 +1410,7 @@ GameObject:
   - component: {fileID: 603097388}
   - component: {fileID: 603097387}
   - component: {fileID: 603097389}
+  - component: {fileID: 603097390}
   m_Layer: 5
   m_Name: Key_1
   m_TagString: Untagged
@@ -1480,6 +1522,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 150, y: 150}
   m_EdgeRadius: 0
+--- !u!114 &603097390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603097385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c4fb50c5a9fd44292dfbdaba6632ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NotePoint
+  keyName: Key_1
+  m_keyManager: {fileID: 6234251}
+  infoText: {fileID: 125023419}
+  mainManager: {fileID: 506190857}
 --- !u!1 &619238163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,6 +1703,7 @@ GameObject:
   - component: {fileID: 750371166}
   - component: {fileID: 750371165}
   - component: {fileID: 750371167}
+  - component: {fileID: 750371168}
   m_Layer: 5
   m_Name: Key_2
   m_TagString: Untagged
@@ -1756,6 +1815,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 150, y: 150}
   m_EdgeRadius: 0
+--- !u!114 &750371168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750371163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c4fb50c5a9fd44292dfbdaba6632ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NotePoint
+  keyName: Key_2
+  m_keyManager: {fileID: 6234251}
+  infoText: {fileID: 125023419}
+  mainManager: {fileID: 506190857}
 --- !u!1 &763615492
 GameObject:
   m_ObjectHideFlags: 0
@@ -2545,8 +2620,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -262.25}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -317}
+  m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1106039189
 MonoBehaviour:
@@ -2575,11 +2650,11 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 50
-    m_Alignment: 4
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Music Name
 
@@ -2697,6 +2772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1138017326}
   - component: {fileID: 1138017325}
+  - component: {fileID: 1138017327}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2736,6 +2812,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138017327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138017324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482b0d7ab3c3884fab0c583d50c38fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScorePoint
+  scoreText: {fileID: 1926230630}
 --- !u!1 &1173296118
 GameObject:
   m_ObjectHideFlags: 0
@@ -2843,9 +2932,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 603097386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 621}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 73, y: 696}
   m_SizeDelta: {x: 150, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183364709
@@ -2972,7 +3061,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3782,6 +3871,7 @@ GameObject:
   - component: {fileID: 1613914473}
   - component: {fileID: 1613914472}
   - component: {fileID: 1613914474}
+  - component: {fileID: 1613914475}
   m_Layer: 5
   m_Name: Key_3
   m_TagString: Untagged
@@ -3893,6 +3983,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 300, y: 150}
   m_EdgeRadius: 0
+--- !u!114 &1613914475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613914470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c4fb50c5a9fd44292dfbdaba6632ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NotePoint
+  keyName: Key_3
+  m_keyManager: {fileID: 6234251}
+  infoText: {fileID: 125023419}
+  mainManager: {fileID: 506190857}
 --- !u!1 &1743479951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4071,7 +4177,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.23
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

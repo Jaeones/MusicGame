@@ -36,6 +36,11 @@ public class MainManager : MonoBehaviour
                 isGame = false;
                 SceneManager.LoadScene("End");
             }
+
+            if (Input.GetKeyDown(KeyCode.V))
+            {
+                SceneManager.LoadScene("End");
+            }
         }
     }
 }

@@ -43,35 +43,35 @@ public class KeyManager : MonoBehaviour
             isKeyPut[1] = false;
             keyImages[1].color = new Color(1, 1, 1, 0.2f);
         }
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             isKeyPut[2] = true;
             keyAudio.PlayOneShot(keyAudioClip);
             keyImages[2].color = keyColors[2];
         }
-        else if (Input.GetKeyUp(KeyCode.D))
+        else if (Input.GetKeyUp(KeyCode.Space))
         {
             isKeyPut[2] = false;
             keyImages[2].color = new Color(1, 1, 1, 0.2f);
         }
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             isKeyPut[3] = true;
             keyAudio.PlayOneShot(keyAudioClip);
             keyImages[3].color = keyColors[3];
         }
-        else if (Input.GetKeyUp(KeyCode.F))
+        else if (Input.GetKeyUp(KeyCode.K))
         {
             isKeyPut[3] = false;
             keyImages[3].color = new Color(1, 1, 1, 0.2f);
         }
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             isKeyPut[4] = true;
             keyAudio.PlayOneShot(keyAudioClip);
             keyImages[4].color = keyColors[4];
         }
-        else if (Input.GetKeyUp(KeyCode.G))
+        else if (Input.GetKeyUp(KeyCode.L))
         {
             isKeyPut[4] = false;
             keyImages[4].color = new Color(1, 1, 1, 0.2f);
