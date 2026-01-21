@@ -3,7 +3,7 @@ using UnityEngine;
 public class Note : MonoBehaviour
 {
     // SpawnManager의 NoteSpeed와 같은 값이어야 함
-    public float noteSpeed = 400f;
+    public float noteSpeed = 500f;
 
     private void Start()
     {

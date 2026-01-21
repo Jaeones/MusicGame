@@ -45,19 +45,19 @@ public class ResultManager : MonoBehaviour
 
         int score = ScorePoint.score;
 
-        if (score > 2000)
+        if (score > 20000)
         {
             index = 0; // S등급
         }
-        else if (score > 1500)
+        else if (score > 16000)
         {
             index = 1; // A등급
         }
-        else if (score > 1000)
+        else if (score > 12000)
         {
             index = 2; // B등급
         }
-        else if (score > 500)
+        else if (score > 8000)
         {
             index = 3; // C등급
         }

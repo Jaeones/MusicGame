@@ -888,7 +888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &455846362
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1329,29 +1329,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StartManager
   playerAudio: {fileID: 711571397}
   selectAudioClips:
-  - {fileID: 8300000, guid: c8aaceec74dc7e843a636735770378d2, type: 3}
-  - {fileID: 8300000, guid: 8a6f52fc5773cc64eb7915ad6b19d8e3, type: 3}
-  - {fileID: 8300000, guid: 4692f13163e39d5468a36f63cf2155e3, type: 3}
-  - {fileID: 8300000, guid: dce63eaf60b7a29498e04ebe4fcaf123, type: 3}
-  - {fileID: 8300000, guid: 43f4b9707404c474d8703fa45789b16b, type: 3}
-  - {fileID: 8300000, guid: abf0f11f5c6643c4bb74a7a00482b690, type: 3}
-  - {fileID: 8300000, guid: ba0f57fe356689642a45aa680f4e256b, type: 3}
-  - {fileID: 8300000, guid: b03aa2305fd85a945ae6b92ddd9f2f41, type: 3}
-  - {fileID: 8300000, guid: ada63c568c9030f4781d173fb6e90c50, type: 3}
-  - {fileID: 8300000, guid: 808d9afabe29e014496ae361e850059f, type: 3}
+  - {fileID: 8300000, guid: 6f81197ffc7ba7745a8d9b6600171cc9, type: 3}
+  - {fileID: 8300000, guid: c937aa6ad5191304095dd17edb08d65b, type: 3}
   selectNum: 0
   volumeSlider: {fileID: 0}
   musicSelects:
   - {fileID: 2040265669}
   - {fileID: 158531154}
-  - {fileID: 213821968}
-  - {fileID: 1238105648}
-  - {fileID: 1433710004}
-  - {fileID: 1609253977}
-  - {fileID: 1071599092}
-  - {fileID: 930446032}
-  - {fileID: 2028883815}
-  - {fileID: 639877008}
 --- !u!82 &711571397
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1365,7 +1349,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.71
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1609,7 +1593,7 @@ GameObject:
   - component: {fileID: 801762674}
   - component: {fileID: 801762676}
   m_Layer: 5
-  m_Name: "\uB098\uBB34-\uCE74\uB354\uAC00\uB4E0"
+  m_Name: Tobu - Candyland
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1632,7 +1616,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -187}
-  m_SizeDelta: {x: 500, y: 150}
+  m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801762674
 MonoBehaviour:
@@ -1655,19 +1639,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 50
-    m_Alignment: 4
+    m_MinSize: 1
+    m_MaxSize: 100
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB098\uBB34-\uCE74\uB354\uAC00\uB4E0"
+  m_Text: Tobu - Candyland
 --- !u!222 &801762675
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3098,7 +3082,7 @@ GameObject:
   - component: {fileID: 1930976130}
   - component: {fileID: 1930976129}
   m_Layer: 5
-  m_Name: SPY  FAMILY Opening theme song
+  m_Name: "Mixed Nuts -Official\u9AED\u7537dism"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3156,7 +3140,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SPY  FAMILY Opening theme song
+  m_Text: "Mixed Nuts -Official\u9AED\u7537dism"
 --- !u!222 &1930976130
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3426,7 +3410,7 @@ GameObject:
   - component: {fileID: 2146076455}
   - component: {fileID: 2146076457}
   m_Layer: 5
-  m_Name: "\uAC00\uAE4C\uC6B4 \uB4EF \uBA3C \uADF8\uB300\uC5EC -\uCE74\uB354\uAC00\uB4E0"
+  m_Name: TheFatRat - Unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3449,7 +3433,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -187}
-  m_SizeDelta: {x: 500, y: 150}
+  m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2146076455
 MonoBehaviour:
@@ -3472,19 +3456,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 50
-    m_Alignment: 4
+    m_MinSize: 1
+    m_MaxSize: 100
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAC00\uAE4C\uC6B4 \uB4EF \uBA3C \uADF8\uB300\uC5EC -\uCE74\uB354\uAC00\uB4E0"
+  m_Text: TheFatRat - Unity
 --- !u!222 &2146076456
 CanvasRenderer:
   m_ObjectHideFlags: 0
